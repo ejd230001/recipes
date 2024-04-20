@@ -1,0 +1,41 @@
+body#homepage {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+body.recipe-page {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    background-color: lightseagreen;
+}
+
+.recipe-links {
+    background-color: lightgreen;
+}
+
+#credit {
+    background-color: lightcoral;
+}
+
+li {
+    background-color: aliceblue;
+}
+
+h2 {
+    background-color: lightblue;
+}
+
+p {
+    color: red;
+    background-color: lightpink;
+}
+
+.ingredients {
+    color: green;
+}
+
+.steps {
+    color: darkblue;
+}
