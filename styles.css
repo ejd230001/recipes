@@ -7,29 +7,61 @@ body.recipe-page {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-h1 {
+.header {
     background-color: lightseagreen;
+    border: 2px solid black;
+    margin-bottom: 15px;
 }
 
 .recipe-links {
     background-color: lightgreen;
+    border: 2px solid black;
+    margin-bottom: 15px;
 }
 
-#credit {
+.credit {
     background-color: lightcoral;
+    border: 2px solid black;
 }
 
-li {
+.image {
+    background-color: lightcoral;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+
+.image img {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.ingredients li,
+.steps li,
+.recipe-description p {
     background-color: aliceblue;
 }
 
-h2 {
+.ingredients h2,
+.steps h2,
+.recipe-description h2 {
     background-color: lightblue;
+    border: 1px solid black;
 }
 
-p {
+.ingredients ul,
+.steps ol {
+    border: 1px solid black;
+}
+
+.recipe-description {
     color: red;
-    background-color: lightpink;
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+
+.recipe-description h2 {
+    margin-top: 0px;
 }
 
 .ingredients {
